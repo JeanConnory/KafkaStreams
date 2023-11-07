@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rabbit.Models\Rabbit.Models.csproj" />
-    <ProjectReference Include="..\Rabbit.Repositories\Rabbit.Repositories.csproj" />
-    <ProjectReference Include="..\Rabbit.Services\Rabbit.Services.csproj" />
+    <ProjectReference Include="..\Rabbit.Models\App.Models.csproj" />
+    <ProjectReference Include="..\Rabbit.Repositories\App.Repositories.csproj" />
+    <ProjectReference Include="..\Rabbit.Services\App.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,16 +4,16 @@ using Rabbit.Services.Interfaces;
 
 namespace Rabbit.Services
 {
-    public class RabbitMensagemService : IRabbitMensagemService
+    public class AppMensagemService : IAppMensagemService
     {
-        private readonly IRabbitMensagemRepository _repository;
+        private readonly IAppMensagemRepository _repository;
 
-        public RabbitMensagemService(IRabbitMensagemRepository repository)
+        public AppMensagemService(IAppMensagemRepository repository)
         {
             _repository = repository;
         }
 
-        public void SendMensagem(RabbitMensagem mensagem)
+        public void SendMensagem(AppMensagem mensagem)
         {
             _repository.SendMensagem(mensagem);
         }

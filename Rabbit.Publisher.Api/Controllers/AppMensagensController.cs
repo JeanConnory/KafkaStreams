@@ -6,17 +6,17 @@ namespace Rabbit.Publisher.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RabbitMensagensController : ControllerBase
+    public class AppMensagensController : ControllerBase
     {
-        private readonly IRabbitMensagemService _service;
+        private readonly IAppMensagemService _service;
 
-        public RabbitMensagensController(IRabbitMensagemService service)
+        public AppMensagensController(IAppMensagemService service)
         {
             _service = service;
         }
 
         [HttpPost]
-        public void AddMensagem(RabbitMensagem mensagem)
+        public void AddMensagem(AppMensagem mensagem)
         {
             _service.SendMensagem(mensagem);
         }

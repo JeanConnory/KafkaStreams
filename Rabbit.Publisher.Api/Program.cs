@@ -11,8 +11,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddTransient<IRabbitMensagemService, RabbitMensagemService>();
-builder.Services.AddTransient<IRabbitMensagemRepository, RabbitMensagemRepository>();
+builder.Services.AddTransient<IAppMensagemService, AppMensagemService>();
+//builder.Services.AddTransient<IAppMensagemRepository, RabbitMensagemRepository>();
+builder.Services.AddTransient<IAppMensagemRepository, KafkaMensagemRepository>();
 
 var app = builder.Build();
 

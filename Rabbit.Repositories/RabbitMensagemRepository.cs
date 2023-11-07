@@ -6,9 +6,9 @@ using System.Text.Json;
 
 namespace Rabbit.Repositories
 {
-    public class RabbitMensagemRepository : IRabbitMensagemRepository
+    public class RabbitMensagemRepository : IAppMensagemRepository
     {
-        public void SendMensagem(RabbitMensagem mensagem)
+        public void SendMensagem(AppMensagem mensagem)
         {
             var factory = new ConnectionFactory 
             { 

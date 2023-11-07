@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Publisher.Api", "Rabbit.Publisher.Api.csproj", "{4635EAFF-F0F6-4324-B176-FBD83FFA7559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Publisher.Api", "App.Publisher.Api.csproj", "{4635EAFF-F0F6-4324-B176-FBD83FFA7559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Consumer", "..\Rabbit.Consumer\Rabbit.Consumer.csproj", "{B6CAB6E6-E826-4231-B307-4F5999E351C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Consumer", "..\Rabbit.Consumer\App.Consumer.csproj", "{B6CAB6E6-E826-4231-B307-4F5999E351C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Models", "..\Rabbit.Models\Rabbit.Models.csproj", "{3148A384-91D0-48A6-A363-B4732FD94383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Models", "..\Rabbit.Models\App.Models.csproj", "{3148A384-91D0-48A6-A363-B4732FD94383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Services", "..\Rabbit.Services\Rabbit.Services.csproj", "{1BE7123D-3C6E-4E9D-9184-C5A148272F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Services", "..\Rabbit.Services\App.Services.csproj", "{1BE7123D-3C6E-4E9D-9184-C5A148272F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Repositories", "..\Rabbit.Repositories\Rabbit.Repositories.csproj", "{D93FDC90-F0F0-487E-9675-C76872604E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Repositories", "..\Rabbit.Repositories\App.Repositories.csproj", "{D93FDC90-F0F0-487E-9675-C76872604E56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿namespace Rabbit.Models.Entities
 {
-    public class RabbitMensagem
+    public class AppMensagem
     {
         public int Id { get; set; }
 

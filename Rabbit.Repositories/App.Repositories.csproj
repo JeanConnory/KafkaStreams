@@ -1,19 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
     <PackageReference Include="RabbitMQ.Client" Version="6.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rabbit.Models\Rabbit.Models.csproj" />
-    <ProjectReference Include="..\Rabbit.Repositories\Rabbit.Repositories.csproj" />
-    <ProjectReference Include="..\Rabbit.Services\Rabbit.Services.csproj" />
+    <ProjectReference Include="..\Rabbit.Models\App.Models.csproj" />
   </ItemGroup>
 
 </Project>
